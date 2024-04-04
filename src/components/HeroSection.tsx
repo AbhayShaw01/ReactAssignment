@@ -1,4 +1,4 @@
-import meetImg from "../assets/meetImg.svg"
+import meetImg from "../assets/meetImg.svg";
 export default function HeroSection() {
   return (
     <div className="sm:max-w-[1200px]  sm:mt-24 sm:mb-16 sm:mx-auto sm:flex pb-10 sm:pb-0">

@@ -1,9 +1,8 @@
-import React from "react";
-import playDownload from "../assets/google-play-badge.png";
-import appleBadge from "../assets/apple.png";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { FiYoutube } from "react-icons/fi";
-import { footerSections, FooterLink } from "../constants/constant";
+import appleBadge from "../assets/apple.png";
+import playDownload from "../assets/google-play-badge.png";
+import { FooterLink, footerSections } from "../constants/constant";
 
 const Footer: React.FC = () => {
   return (

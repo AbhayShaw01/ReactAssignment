@@ -1,6 +1,4 @@
-
-import React from "react";
-import {  heroData } from "../constants/constant";
+import { heroData } from "../constants/constant";
 import HeroCard from "./HeroCard";
 
 

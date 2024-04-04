@@ -1,6 +1,6 @@
-import lorealImg from "../assets/L'Oréal.svg";
 import ancestryImg from "../assets/Ancestry.jpg";
 import ebayImg from "../assets/EBay New.jpg";
+import lorealImg from "../assets/L'Oréal.svg";
 
 export default function BrandSection() {
   return (
