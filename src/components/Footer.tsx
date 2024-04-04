@@ -4,7 +4,7 @@ import appleBadge from "../assets/apple.png";
 import playDownload from "../assets/google-play-badge.png";
 import { FooterLink, footerSections } from "../constants/constant";
 
-const Footer: React.FC = () => {
+export default function Footer(){
   return (
     <>
       <div className="sm:flex w-full bg-[#f8f9fb]   pt-10 sm:pt-28 pb-20 pl-6 pr-6">
@@ -60,12 +60,10 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="mb-20 font-semibold  text-desc flex justify-between sm:max-w-[1200px] px-12 sm:px-0 mx-auto text-xs">
+      <div className="mb-20 font-semibold bg-[#f8f9fb]   text-desc flex justify-between sm:max-w-[1200px] px-12 sm:px-0 mx-auto text-xs">
         <span>Copyright, Calendly2002</span>
         <span className="sm:mr-10">Privacy / Terms and Conditions</span>
       </div>
     </>
   );
 };
-
-export default Footer;
