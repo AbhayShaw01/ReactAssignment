@@ -61,8 +61,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="mb-20 font-semibold  text-desc flex justify-between sm:max-w-[1200px] px-12 sm:px-0 mx-auto text-xs">
-        <span>Copyright,Calendly2002</span>
-        <span className="sm:mr-10">Privacy /Terms and Conditions</span>
+        <span>Copyright, Calendly2002</span>
+        <span className="sm:mr-10">Privacy / Terms and Conditions</span>
       </div>
     </>
   );
