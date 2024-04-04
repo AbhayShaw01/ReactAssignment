@@ -24,13 +24,13 @@ export default function JumboTron() {
   ];
 
   return (
-    <div className="w-full flex-col h-[400px]">
+    <div className="w-full flex-col h-[400px] ">
       <div className="bg-backdropSecond h-full">
-        <p className="text-md text-center text-4xl font-bold text-white pt-20">
+        <p className="text-md text-center text-4xl font-bold text-white pt-16">
           Spend more time connecting, not <br />
           scheduling
         </p>
-        <p className="text-md text-center text-white sm:max-w-[800px] font-normal  max-w-xs mx-auto pt-8 pb-20">
+        <p className="text-md text-center text-white sm:max-w-[800px] font-normal  max-w-xs mx-auto pt-12 pb-16">
           Book more meetings and hit goals faster by streamlining your <br />
           scheduling process and automating manual busywork
         </p>
